@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tana-mistral"
+version = "0.1.0"
+description = ""
+authors = ["Jens-Christian Fischer <jens-christian.fischer@switch.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pydantic-settings = "^2.1.0"
+pytz = "^2023.3.post1"
+llama-index = "^0.9.22"
+qdrant-client = "^1.7.0"
+transformers = "^4.36.2"
+torch = "^2.1.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
